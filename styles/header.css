@@ -1,0 +1,79 @@
+#person-apresentation {
+    width: 1366px;
+    position: relative;
+    margin: auto;
+}
+
+.person-intro {
+    position: absolute;
+    height: 100vh;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.background-intro {
+    width: 100%;
+    object-fit: cover;
+}
+
+.content-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 96px;
+    
+    .avatar {
+        display: flex;
+        margin-bottom: 56px;
+    }
+
+    .apresentation {
+        font-family: var(--font-family-sub);
+        color: var(--gray-500);
+        margin-bottom: 8px;
+        
+        span {
+            color: var(--red);   
+        }
+    }
+
+    h1 {
+        font: var(--title-lg);
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    
+    p {
+        font: var(--text-sm);
+        color: var(--gray-400);
+        margin-bottom: 80px;
+    }
+}
+
+.technologies {
+    display: flex;
+    background-color: var(--gray-300);
+    border-radius: 80px;
+    gap: 16px;
+}
+
+.used-techs {
+    font: var(--text-md);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-block: 8px;
+    padding-inline: 16px;
+
+    span {
+        color: var(--gray-500);
+    }
+    
+}
+
+.arrow {
+    margin-bottom: 80px;
+}
+
+

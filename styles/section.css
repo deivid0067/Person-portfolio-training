@@ -1,0 +1,81 @@
+#emphasis-project{
+    width: 1366px;
+    height: 917px;
+    margin: auto;
+    background-color: var(--gray-200);
+}
+
+.titles-project {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 72px;
+        padding-bottom: 56px;
+
+        span {
+            font: var(--text-md);
+            color: var(--red);
+        }
+
+        h2 {
+            font: var(--title-md);
+            color: var(--gray-600);
+        }
+}
+
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: fit-content;
+    gap: 24px;
+    justify-content: center;
+}
+
+.card-projects {
+    width: 330px;
+    height: 280px;
+    background-color: var(--gray-300);
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    border-radius: 12px;
+    gap: 20px;
+    
+    img {
+        width: 306px;
+        height: 156px;
+        border-radius: 8px;
+        align-self: center;
+    }
+
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    gap: 8px;
+
+    h3 {
+        font: var(--title-sm);
+        color: var(--gray-600);
+    }
+    
+    p {
+        font: var(--text-sm);
+        color: var(--gray-500);
+    }
+}
+
+
+.container-cards{
+    display: flex;
+    justify-content: center;
+}
+
+#my-services {
+    width: 1366px;
+    background-color: var(--gray-100);
+}

@@ -1,0 +1,11 @@
+.flex {
+    display: flex;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.marginbt-96{
+    margin-bottom: 96px;
+}

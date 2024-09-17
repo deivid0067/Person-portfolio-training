@@ -77,5 +77,72 @@
 
 #my-services {
     width: 1366px;
+    height: 480px ;
     background-color: var(--gray-100);
+    margin: auto;
+}
+
+
+.container-services {
+    display: flex;
+    justify-content: center;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: fit-content;
+    gap: 24px;
+}
+
+.title-services {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 88px;
+    padding-bottom: 56px;
+
+    span {
+        font: var(--text-md);
+        color: var(--red);
+    }
+
+    h2 {
+        font: var(--title-md);
+        color: var(--gray-600);
+    }
+}
+
+.card-services {
+    width: 280px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid var(--gray-200);
+    border-radius: 12px;
+    padding: 20px;
+
+
+    img {
+        width: 48px;
+        object-fit: cover;
+    }
+
+    .text-card-service {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        h3 {
+            font: var(--title-sm);
+            color: var(--gray-600);
+        }
+        
+        span {
+            font: var(--text-sm);
+            color: var(--gray-500);
+        }
+    }
 }
